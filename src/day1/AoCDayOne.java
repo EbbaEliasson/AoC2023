@@ -8,7 +8,7 @@ public class AoCDayOne {
     // Advent Of Code
     // Day 1: Trebuchet?!
     public static void main(String[] args) throws FileNotFoundException {
-        File input = new File("src/inputDayOne.txt");
+        File input = new File("src/day1/inputDayOne.txt");
         Scanner scanner = new Scanner(input);
         int sum = 0;
 
