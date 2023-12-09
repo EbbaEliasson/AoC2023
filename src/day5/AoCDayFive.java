@@ -45,9 +45,9 @@ public class AoCDayFive {
 
         for(int i: index){
             System.out.println("--- Loop " + i + " ---");
-            Long tempMin = Long.MAX_VALUE;
+            long tempMin = Long.MAX_VALUE;
             for(int j = 0; j< sources.get(i+1); j++){
-                Long tempDestination = sourceToDestination(sources.get(i) + j);
+                long tempDestination = sourceToDestination(sources.get(i) + j);
                 if(tempDestination<tempMin){
                     tempMin = tempDestination;
                 }
