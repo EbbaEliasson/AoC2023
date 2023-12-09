@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class Mapping {
     // Mapping class for rules
 
-    private static long destination;
-    private static long source;
-    private static long length;
+    private final long destination;
+    private final long source;
+    private final long length;
 
     Mapping(String mappingString){
         String[] mapping = mappingString.split("\\s+");
